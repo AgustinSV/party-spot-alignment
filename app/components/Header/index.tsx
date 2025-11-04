@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Header() {
   return (
-    <div className="h-18 flex justify-center items-center">
+    <div className="h-18 flex justify-center md:justify-start md:pl-5 items-center">
       <Image 
         className="mr-1"
         src="/logo.png"
